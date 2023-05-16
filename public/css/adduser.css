@@ -1,0 +1,241 @@
+/* .home .add{
+font-size: 20px;
+font-weight: 500;
+color: var(--text-color);
+padding: 12px 60px;
+} */
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+outline: none;
+font-family: sans-serif;
+}
+
+body{
+height: 100vh;
+background: #e1edf9;
+}
+
+.wrapper{
+max-width: 650px;
+width: 100%;
+margin: 30px auto 0;
+padding: 10px;
+}
+
+.wrapper .form_container{
+background: #fff;
+padding: 30px;
+box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+border-radius: 3px;
+}
+.wrapper .form_container .form_item{
+margin-bottom: 25px;
+}
+
+.form_wrap.fullname,
+.form_wrap.select_box{
+display: flex;
+}
+
+.form_wrap.fullname .form_item,
+.form_wrap.select_box .form_item{
+width: 50%;
+}
+
+.form_wrap.fullname .form_item:first-child,
+.form_wrap.select_box .form_item:first-child{
+margin-right: 4%;
+}
+
+.wrapper .form_container .form_item label{
+display: block;
+margin-bottom: 5px;
+}
+
+.form_item input[type="text"],input[type="password"],
+.form_item select{
+width: 100%;
+padding: 10px;
+font-size: 16px;
+border: 1px solid #dadce0;
+border-radius: 3px;
+}
+
+.form_item input[type="text"],[type="password"]:focus{
+border-color: #6271f0;
+}
+.text-danger{
+color: #FF0000;
+}
+
+
+#submit{
+background: rgba(175, 0, 0, 0.95);
+border: 1px solid white;
+padding: 10px;
+width: 100%;
+font-size: 16px;
+letter-spacing: 1px;
+border-radius: 3px;
+cursor: pointer;
+color: #fff;
+}
+#submit:hover {
+background-color: rgba(195, 0, 0, 0.95); /* Green */
+color: white;
+}
+#batch_add{
+    background: rgba(28, 106, 36, 0.8);
+    border: 1px solid white;
+    width: 40%;
+    height:  150%;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    float: right;
+    border-radius: 8px;
+}
+#batch_add:hover {
+background-color: rgba(33, 122, 42, 0.8); /* Green */
+color: white;
+}
+
+.heading{
+background:#b30000;
+text-align: center;
+color: white;
+font-size: 19px;
+margin-bottom: 30px;
+
+
+}
+.button {
+background-color: #4CAF50; /* Green */
+border: none;
+color: white;
+padding: 10px 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 5px;
+
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */ 
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+.button5 {background-color: #555555;} /* Black */
+
+
+.w3-modal-content{
+width: 30%;
+}
+
+
+
+.alert {
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+  }
+  
+  .alert-heading {
+    color: inherit;
+  }
+  
+  .alert-link {
+    font-weight: 700;
+  }
+  
+  .alert-dismissible {
+    padding-right: 3rem;
+  }
+  .alert-dismissible .btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    padding: 1.25rem 1rem;
+  }
+  
+  .alert-primary {
+    color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+  }
+  .alert-primary .alert-link {
+    color: #06357a;
+  }
+  
+  .alert-secondary {
+    color: #41464b;
+    background-color: #e2e3e5;
+    border-color: #d3d6d8;
+  }
+  .alert-secondary .alert-link {
+    color: #34383c;
+  }
+  
+  .alert-success {
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+  }
+  .alert-success .alert-link {
+    color: #0c4128;
+  }
+  
+  .alert-info {
+    color: #055160;
+    background-color: #cff4fc;
+    border-color: #b6effb;
+  }
+  .alert-info .alert-link {
+    color: #04414d;
+  }
+  
+  .alert-warning {
+    color: #664d03;
+    background-color: #fff3cd;
+    border-color: #ffecb5;
+  }
+  .alert-warning .alert-link {
+    color: #523e02;
+  }
+  
+  .alert-danger {
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+  }
+  .alert-danger .alert-link {
+    color: #6a1a21;
+  }
+  
+  .alert-light {
+    color: #636464;
+    background-color: #fefefe;
+    border-color: #fdfdfe;
+  }
+  .alert-light .alert-link {
+    color: #4f5050;
+  }
+  
+  .alert-dark {
+    color: #141619;
+    background-color: #d3d3d4;
+    border-color: #bcbebf;
+  }
+  .alert-dark .alert-link {
+    color: #101214;
+  }
+
+  
